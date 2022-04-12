@@ -1,8 +1,6 @@
 `This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Implementing Feature Flags in Next.js via a Feature Flagging Service
-
-# About Sample Application
+# Sample Application for Implementing Feature Flags in Next.js via a Feature Flagging Service
 
 This sample app is an implemention of a new feature in a Next.js application that enables you generate a random user profiles with every page load or reload.
 
