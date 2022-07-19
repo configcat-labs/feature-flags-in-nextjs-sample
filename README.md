@@ -1,9 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-# Sample Application for Implementing Feature Flags in Next.js via the ConfigCat Feature Flagging Service
+# This is a companion sample application for the [**Implementing Feature Flags in Next.js with the ConfigCat Feature Flag Service**](https://configcat.com/blog/2022/04/22/how-to-use-feature-flags-in-nextjs/) article.
 
 This sample app is an implemention of a new feature in a Next.js application that enables you generate a random user profiles with every page load or reload.
-
 The feature is then connected to a feature flag to give us the control needed to plan a feature release to our users.
 
 ## Getting Started
@@ -26,16 +23,20 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Learn More
 
+[**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/)
+
+You can also explore other code samples for various languages, frameworks, and topics here in the [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
+
+Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
+[David Herbert](https://github.com/DaveyHert)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-`
+## Contributions
+Contributions are welcome!
