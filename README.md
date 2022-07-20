@@ -1,4 +1,5 @@
-# This is a companion sample application for the [**Implementing Feature Flags in Next.js with ConfigCat**](https://configcat.com/blog/2022/04/22/how-to-use-feature-flags-in-nextjs/) article.
+# Implementing Feature Flags in Next.js with ConfigCat
+This is a companion sample application for the [**Implementing Feature Flags in Next.js with ConfigCat**](https://configcat.com/blog/2022/04/22/how-to-use-feature-flags-in-nextjs/) article.
 
 This sample app is an implemention of a new feature in a Next.js application that enables you generate a random user profiles with every page load or reload.
 The feature is then connected to a feature flag to give us the control needed to plan a feature release to our users.
