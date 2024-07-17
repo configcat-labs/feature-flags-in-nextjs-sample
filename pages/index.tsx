@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
-import styles from "@/styles/Home.module.css";
 
 import * as configcat from "configcat-js-ssr";
 import UserCard from "./components/UserCard";
@@ -15,7 +14,7 @@ const getRandomUser = async (): Promise<ApiResponse> => {
 export const getServerSideProps = (async () => {
   // Create the ConfigCat client with your SDK Key
   const configCatClient = configcat.getClient(
-    "configcat-sdk-1/gnLbCJ_nhUCGHl1SZNyC5Q/WqnR63aIJkeepONMnI4p5g"
+    "YOUR-SDK-KEY"
   );
 
   // Get your setting value
