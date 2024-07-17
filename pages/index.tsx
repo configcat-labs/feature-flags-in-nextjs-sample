@@ -13,9 +13,7 @@ const getRandomUser = async (): Promise<ApiResponse> => {
 
 export const getServerSideProps = (async () => {
   // Create the ConfigCat client with your SDK Key
-  const configCatClient = configcat.getClient(
-    "YOUR-SDK-KEY"
-  );
+  const configCatClient = configcat.getClient("YOUR-SDK-KEY");
 
   // Get your setting value
   const randomUserFeature = await configCatClient.getValueAsync(

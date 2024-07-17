@@ -1,40 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Using Feature Flags in a Next.js Application Sample App
 
-## Getting Started
+**[Read the blog post here](https://configcat.com/blog/2022/04/22/how-to-use-feature-flags-in-nextjs/)**
 
-First, run the development server:
+This sample application demonstrates how to use feature flags in a Next.js application. It compliments the blog post linked above and can be used as a code example when using [ConfigCat feature flags](https://configcat.com/featureflags) in your Next.s application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Build & Run
+
+### Prerequisites
+
+- An installation of [Node.js](https://nodejs.org/en/download/package-manager) version 18 or greater.
+- [A ConfigCat Account](https://app.configcat.com/auth/signup)
+
+### Running the sample app
+
+1. Clone this code repository:
+
+```sh
+git@github.com:configcat-labs/feature-flags-in-nextjs-sample.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installed the npm package dependencies:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Start the development server using the below command, then click the link printed to the terminal to launch the sample app in your browser.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> Replace the placeholder values in `pages/index.tsx` with your SDK and Feature Flag Key.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+npm run dev
+```
 
-## Learn More
+## Learn more
 
-To learn more about Next.js, take a look at the following resources:
+Useful links to technical resources.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Get started with Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
-## Deploy on Vercel
+You can also explore other code samples for various languages, frameworks, and topics here in the [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Keep up with ConfigCat on [X](https://x.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Author
+
+- [David Herbert](https://github.com/DaveyHert)
+
+- [Chavez Harris](https://github.com/codedbychavez)
+
+## Contributions
+
+Contributions are welcome!
