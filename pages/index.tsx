@@ -24,6 +24,7 @@ export const getServerSideProps = (async () => {
   // Get a random user
   const randomUser = await getRandomUser();
 
+  // Return the data as props
   return {
     props: {
       randomUser: randomUser.results[0],
