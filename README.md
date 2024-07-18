@@ -19,7 +19,7 @@ This sample application demonstrates how to use feature flags in a Next.js appli
 git@github.com:configcat-labs/feature-flags-in-nextjs-sample.git
 ```
 
-2. Installed the npm package dependencies:
+2. Install the npm package dependencies:
 
 ```sh
 npm install
