@@ -21,8 +21,6 @@ export const getServerSideProps = (async () => {
     false
   );
 
-  console.log(randomUserFeature, "ths flag is");
-
   // Get a random user
   const randomUser = await getRandomUser();
 
