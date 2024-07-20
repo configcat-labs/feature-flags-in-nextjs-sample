@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "feature-flags-in-nextjs-sample",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "configcat-js-ssr": "^3.8.0",
-    "next": "^12.1.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "configcat-js-ssr": "^8.4.1",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "eslint": "7",
-    "eslint-config-next": "12.0.4"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }
