@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
   },
   cacheComponents: true,
+  images: {
+    remotePatterns: [new URL("https://randomuser.me/api/portraits/**")],
+  },
   partialPrefetching: true,
   turbopack: {
     rules: {
